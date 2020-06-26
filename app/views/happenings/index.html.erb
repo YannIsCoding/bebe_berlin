@@ -1,0 +1,17 @@
+<% @happenings.each do |happening| %>
+  <%= link_to happening_path(happening), class: 'card-link' do %>
+    <div class="happening-card">
+      <%= image_tag("logo") %>
+
+      <div class="happening-body">
+        <h3>
+          <%= happening.name %>
+        </h3>
+        <p class="content">
+          <%= happening.content %>
+        </p>
+        <%= happening.price %>
+      </div>
+    </div>
+  <% end %>
+<% end %>

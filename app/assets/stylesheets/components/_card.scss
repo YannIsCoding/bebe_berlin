@@ -1,0 +1,35 @@
+a.card-link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.happening-card{
+    padding: 0.5rem;
+  border: solid $black 2px;
+
+  overflow: hidden;
+  height: 120px;
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+
+  h3{
+    text-transform: uppercase;
+    display: inline;
+  }
+
+  img{
+    max-width: 5rem;
+    max-height: 100%;
+    margin-right: 0.5rem;
+  }
+  .content{
+    max-height:20px;
+    line-height: 1.3rem;
+  }
+}
+
+
+.happening-body{
+
+}

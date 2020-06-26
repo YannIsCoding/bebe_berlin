@@ -1,12 +1,16 @@
-.navbar-lewagon {
+.navbar-bebe {
   justify-content: space-between;
-  background: white;
+  border-bottom: $black solid 4px;
+  padding: 0.5rem 1rem 0rem 1rem;
+  button{
+    border: none
+  }
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-bebe .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-bebe .navbar-brand img {
   width: 40px;
 }
